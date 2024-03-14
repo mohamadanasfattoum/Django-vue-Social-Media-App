@@ -3,7 +3,7 @@
     <div class="max-w-7xl mx-auto">
       <div class="flex items-center justify-between">
         <div class="menu-left">
-          <a href="#" class="text-xl">Wey</a>
+          <a href="#" class="text-xl">Life goal</a>
         </div>
 
         <div class="menu-center flex space-x-12">
@@ -42,7 +42,7 @@
 
         <div class="menu-right">
           <a href="#">
-            <img src="https://i.pravatar.cc/40?img=70" class="rounded-full">
+            <img src="https://avatars.githubusercontent.com/u/124286995?v=4" class="h-16 w-16 object-cover rounded-full">
           </a>
         </div>
       </div>
