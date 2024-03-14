@@ -12,7 +12,7 @@
                 </p>
 
                 <p class="font-bold">
-                    Don't have an account?  <RouterLink to='/signup' class="underline">Click here</RouterLink> to Creaete one!
+                    Don't have an account?  <RouterLink :to="{'name':'signup'}" class="underline">Click here</RouterLink> to Creaete one!
                 </p>
             </div>
         </div>
