@@ -42,7 +42,7 @@
 
         <div class="menu-right">
           <a href="#">
-            <img src="https://avatars.githubusercontent.com/u/124286995?v=4" class="h-16 w-16 object-cover rounded-full">
+            <img src="https://avatars.githubusercontent.com/u/124286995?v=4" class="w-[40px] rounded-full">
           </a>
         </div>
       </div>
