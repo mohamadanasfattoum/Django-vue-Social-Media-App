@@ -13,7 +13,21 @@
             </div>
         </div>
 
-        <div class="main-left col-span-2 spac-y-4" ></div>
+        <div class="main-left col-span-2 spac-y-4" >
+            <div class="bg-white border border-gray-200 rounded-lg">
+                <div class="p-4">  
+                    <textarea class="p-4 w-full bg-gray-100 rounded-lg" placeholder="What are you thinking about?"></textarea>
+                </div>
+
+                <div class="p-4 border-t border-gray-100 flex justify-between">
+                    <a href="#" class="inline-block py-4 px-6 bg-gray-600 text-white rounded-lg">Attach image</a>
+
+                    <a href="#" class="inline-block py-4 px-6 bg-purple-600 text-white rounded-lg">Post</a>
+                </div>
+            </div>
+            
+            
+        </div>
 
     </div>    
 </template>
