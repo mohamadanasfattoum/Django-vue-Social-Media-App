@@ -11,7 +11,7 @@
 
         <div class="p-4 bg-white border border-gray-200 rounded-lg grid grid-cols-4 gap-4">
             <div class="p-4 text-center bg-gray-100 rounded-lg">
-                <img src="https://mohamadanasfattoum.github.io/2050-Landing-Page/img/team-img2.jpg" class="mb-6  rounded-full">
+                <img src="https://i.pravatar.cc/300?img=51" class="mb-6  rounded-full">
             
                 <p><strong>Leao</strong></p>
 
@@ -22,7 +22,7 @@
             </div>
 
             <div class="p-4 text-center bg-gray-100 rounded-lg">
-                <img src="https://mohamadanasfattoum.github.io/2050-Landing-Page/img/team-img3.jpg" class="mb-6 rounded-full">
+                <img src="https://i.pravatar.cc/300?img=60" class="mb-6 rounded-full">
             
                 <p><strong>masi</strong></p>
 
@@ -33,9 +33,9 @@
             </div>
 
             <div class="p-4 text-center bg-gray-100 rounded-lg">
-                <img src="https://mohamadanasfattoum.github.io/2050-Landing-Page/img/team-img4.jpg" class="mb-6 rounded-full">
+                <img src="https://i.pravatar.cc/300?img=54" class="mb-6 rounded-full">
             
-                <p><strong>Dana</strong></p>
+                <p><strong>Dani</strong></p>
 
                 <div class="mt-6 flex space-x-8 justify-around">
                     <p class="text-xs text-gray-500">182 friends</p>
@@ -44,7 +44,7 @@
             </div>
 
             <div class="p-4 text-center bg-gray-100 rounded-lg">
-                <img src="https://mohamadanasfattoum.github.io/2050-Landing-Page/img/team-img1.jpg" class="mb-6 rounded-full ">
+                <img src="https://i.pravatar.cc/300?img=59" class="mb-6 rounded-full ">
             
                 <p><strong>Tim</strong></p>
 
