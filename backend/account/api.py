@@ -23,4 +23,4 @@ def signup(request):
     else:
         message = 'error'
 
-    return JsonResponse({'status': message})
+    return JsonResponse({'message': message})
