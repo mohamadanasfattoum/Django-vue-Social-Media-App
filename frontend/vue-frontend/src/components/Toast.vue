@@ -3,10 +3,7 @@
 
 import {useToastStore} from '@/stores/toast'
 
-const store=useToastStore()
-
-
-
+const store = useToastStore()
 </script>
 
 

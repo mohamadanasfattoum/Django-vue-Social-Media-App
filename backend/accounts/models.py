@@ -1,9 +1,9 @@
 from django.db import models
+
 import uuid
-from django.contrib.auth.models import AbstractBaseUser, PermissionsMixin, UserManager 
+from django.conf import settings
+from django.contrib.auth.models import AbstractBaseUser, PermissionsMixin, UserManager
 from django.utils import timezone
-
-
 
 class CustomUserManager(UserManager):
     def _create_user(self, name, email, password, **extra_fields):
@@ -26,7 +26,6 @@ class CustomUserManager(UserManager):
         extra_fields.setdefault('is_staff', True)
         extra_fields.setdefault('is_superuser', True)
         return self._create_user(name, email, password, **extra_fields)
-
 
 
 class User(AbstractBaseUser, PermissionsMixin):
@@ -59,8 +58,6 @@ class User(AbstractBaseUser, PermissionsMixin):
             return settings.WEBSITE_URL + self.avatar.url
         else:
             return 'https://picsum.photos/200/200'
-
-
 
 class FriendshipRequest(models.Model):
     SENT = 'sent'

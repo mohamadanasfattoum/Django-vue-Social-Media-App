@@ -42,7 +42,7 @@
                         <input type="password" v-model="form.password2" placeholder="Repeat your password" class="w-full mt-2 py-4 px-6 border border-gray-200 rounded-lg">
                     </div>
 
-                    <template v-if="errors">
+                    <template v-if="errors > 0">
                         <div class="bg-red-300 text-white rounded-lg p-6">
                             <p v-for="error in errors" v-bind:key="error">{{ error }}</p>
                             
@@ -65,7 +65,7 @@ import axios from 'axios';
 
 export default {
     setup() {
-        const toastStore = useToastStore
+        const toastStore = useToastStore()
 
         return {
             toastStore

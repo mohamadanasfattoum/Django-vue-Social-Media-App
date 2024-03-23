@@ -2,7 +2,7 @@ from django.http import JsonResponse
 
 from rest_framework.decorators import api_view , authentication_classes, permission_classes
 from .forms import SignupForm
-
+from .models import User, FriendshipRequest
 
 @api_view(['POST'])
 @authentication_classes([])
@@ -23,4 +23,4 @@ def signup(request):
     else:
         message = 'error'
 
-    return JsonResponse({'message': message})
+    return JsonResponse({'message': message}, safe=False)
