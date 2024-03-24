@@ -47,7 +47,6 @@ export const useUserStore = defineStore({
             localStorage.setItem('user.access', data.access)
             localStorage.setItem('user.refresh', data.refresh)
 
-            console.log('user.access: ', localStorage.getItem('user.access'))
         },
 
         removeToken() {
@@ -86,7 +85,7 @@ export const useUserStore = defineStore({
         },
 
         refreshToken() {
-            axios.post('/api/refresh/', {
+            axios.post('/api/accounts/refresh/', {
                 refresh: this.user.refresh
             })
                 .then((response) => {

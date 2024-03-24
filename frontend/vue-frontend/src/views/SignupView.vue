@@ -42,7 +42,7 @@
                         <input type="password" v-model="form.password2" placeholder="Repeat your password" class="w-full mt-2 py-4 px-6 border border-gray-200 rounded-lg">
                     </div>
 
-                    <template v-if="errors > 0">
+                    <template v-if="errors.length > 0">
                         <div class="bg-red-300 text-white rounded-lg p-6">
                             <p v-for="error in errors" v-bind:key="error">{{ error }}</p>
                             
@@ -83,7 +83,7 @@ export default {
 
             },
 
-            error: [],
+            errors: [],
 
 
         }
@@ -109,9 +109,9 @@ export default {
 
             if (this.errors.length === 0) {
                 axios
-                    .post('/api/signup', this.form)
-                    .then(reaponse => {
-                        if (Response.data.message === 'success') {
+                    .post('/api/signup/', this.form)
+                    .then(response => {
+                        if (response.data.message === 'success') {
                             this.toastStore.showToast(5000, 'the user is registered. Please log in', 'bg-emerald-500')
                             
                             this.form.email = ''
